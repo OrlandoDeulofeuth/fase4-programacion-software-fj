@@ -1,0 +1,21 @@
+2026-11-22 20:01:49 [INFO] Inicio de ejecucion de simulaciones para Software FJ.
+2026-11-22 20:01:49 [INFO] Usuario agregado: Usuario(USR01) -> Laura Gomez <laura.gomez@correo.com> [Habilitado]
+2026-11-22 20:01:49 [INFO] Simulacion 01 exitosa: Usuario(USR01) -> Laura Gomez <laura.gomez@correo.com> [Habilitado]
+2026-11-22 20:01:49 [WARNING] Simulacion 02 error controlado: FalloRegistroUsuario: Correo electronico invalido: 'pedro_sin_arroba'.
+2026-11-22 20:01:49 [INFO] Servicio agregado: Sala [SRV-S1] 'Sala Norte' | Cupo: 12 | $65,000.00/h (Operativa)
+2026-11-22 20:01:49 [INFO] Servicio agregado: Equipo [SRV-E1] 'Laptop Dell' (SN:SN998877) | $45,000.00/dia (Operativo)
+2026-11-22 20:01:49 [INFO] Servicio agregado: Consultoria [SRV-C1] 'Arquitectura Cloud' (DevOps - Presencial (+15%)) | $120,000.00/sesion (Operativa)
+2026-11-22 20:01:49 [INFO] Simulacion 03 exitosa: ("Sala [SRV-S1] 'Sala Norte' | Cupo: 12 | $65,000.00/h (Operativa)", "Equipo [SRV-E1] 'Laptop Dell' (SN:SN998877) | $45,000.00/dia (Operativo)", "Consultoria [SRV-C1] 'Arquitectura Cloud' (DevOps - Presencial (+15%)) | $120,000.00/sesion (Operativa)")
+2026-11-22 20:01:49 [WARNING] Simulacion 04 error controlado: FalloConfiguracionServicio: El precio unitario debe ser un numero mayor que cero.
+2026-11-22 20:01:49 [INFO] Reserva registrada: Folio RES-101 | Laura Gomez | Sala Norte x3 | Estado: REGISTRADA
+2026-11-22 20:01:49 [INFO] Simulacion 05 exitosa: Folio RES-101 | Laura Gomez | Sala Norte x3 | Estado: REGISTRADA
+2026-11-22 20:01:49 [WARNING] Simulacion 06 error controlado: FalloGestionReserva: Cantidad invalida al crear la reserva. | Causa encadenada -> FalloConfiguracionServicio: Las horas de reserva de sala deben estar entre 1 y 10.
+2026-11-22 20:01:49 [WARNING] Simulacion 07 error controlado: FalloGestionReserva: El servicio no se encuentra operativo.
+2026-11-22 20:01:49 [INFO] Simulacion 08 exitosa: ('Reserva RES-101 aprobada.', {'subtotal': 195000.0, 'descuento': 19500.0, 'iva': 33345.0, 'total': 208845.0})
+2026-11-22 20:01:49 [WARNING] Simulacion 09 error controlado: FalloGestionReserva: No se puede anular una reserva ya completada.
+2026-11-22 20:01:49 [INFO] Reserva registrada: Folio RES-104 | Laura Gomez | Arquitectura Cloud x2 | Estado: REGISTRADA
+2026-11-22 20:01:49 [INFO] Simulacion 10 exitosa: Folio RES-104 | Laura Gomez | Arquitectura Cloud x2 | Estado: APROBADA -> Reserva RES-104 aprobada.
+2026-11-22 20:01:49 [INFO] Simulacion 11 exitosa: {'subtotal': 276000.0, 'descuento': 0.0, 'iva': 52440.0, 'total': 328440.0}
+2026-11-22 20:01:49 [WARNING] Simulacion 12 error controlado: FalloLiquidacion: El descuento debe estar entre 0 y menor a 100.
+2026-11-22 20:01:49 [INFO] Resumen final -> Total: 12 | Exitosas: 6 | Errores controlados: 6 | Fallos inesperados: 0
+2026-11-22 20:01:49 [INFO] Cierre de bitacora de ejecucion.
